@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour {
 
+    //todo fix lighting
     AudioSource thrustSound;
     Rigidbody rigidBody;
 
@@ -40,6 +39,11 @@ public class Rocket : MonoBehaviour {
                 break;
             case "Deadly":
                 Debug.Log("Dead");
+                SceneManager.LoadScene(0);
+                break;
+            case "Finish":
+                Debug.Log("Finish");
+                SceneManager.LoadScene(1);
                 break;
             default:
                 Debug.Log("Safe");
