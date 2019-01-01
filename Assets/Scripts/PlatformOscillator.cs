@@ -18,7 +18,7 @@ public class PlatformOscillator : MonoBehaviour {
 	
 	void Update ()
     {
-        if (period == 0){ return; } // prevent NAN
+        if (period <= Mathf.Epsilon){ return; } // prevent NAN
         //set movement factor 
 
         //todo prevent divided by zero
@@ -28,7 +28,6 @@ public class PlatformOscillator : MonoBehaviour {
         float rawSineWave = Mathf.Sin(cycles * tau);    //range from -1 to 1
 
         movementFactor = rawSineWave / 2f + 0.5f;
-        print(rawSineWave);
 
         Vector3 offset = movementVector * movementFactor;
         transform.position = startingPos + offset;
