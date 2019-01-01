@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 463f72c99433e9e48ab58a91e2617b63,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -381,54 +382,6 @@ Prefab:
     - target: {fileID: 4628291340243796, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
       propertyPath: m_RootOrder
       value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1024316723819618, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1858147734371764, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1412413588171074, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1285794309214124, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1836714775376580, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1252687941591134, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1903082210448716, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1128361716053224, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1263453897829352, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606201028448976, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1866782746111344, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
-      objectReference: {fileID: 0}
-    - target: {fileID: 1125457573542872, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
-      propertyPath: m_TagString
-      value: Deadly
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20045a5a044b1a349b9d744caff16a54, type: 2}
